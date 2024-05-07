@@ -1,8 +1,17 @@
-# React + Vite
+# Video Streaming Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the Video Streaming Platform! This full-stack application allows users to stream and watch videos. It's built using the MERN stack (MongoDB, Express.js, React.js, Node.js) for the backend and frontend, and utilizes FFmpeg for video streaming.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Video uploading: Authenticated users can upload videos to the platform.
+- Video streaming: Users can stream videos uploaded to the platform.
+- Responsive design: The application is designed to work seamlessly across various devices and screen sizes.
+
+## Technologies Used
+
+- Express.js: A Node.js framework used for building the backend RESTful API.
+- React.js: A JavaScript library used for building the frontend user interface.
+- Node.js: A JavaScript runtime environment used for building the backend server.
+- FFmpeg: A multimedia framework used for handling video streaming.
+
